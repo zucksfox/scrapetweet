@@ -8,6 +8,10 @@ Dapat digunakan sebagai Scrape Data Tweet seseorang berdasarkan Query
 ```bash
 visit https://developer.x.com/
 ```
+## Ganti BearerToken Mu
+```bash
+    BEARER_TOKEN = 'your_bearer_token'
+```
 
 
 ## Installation
@@ -22,4 +26,3 @@ Run code
 ```bash
 python Scrapetweet.py
 ```
-    
