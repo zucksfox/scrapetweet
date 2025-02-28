@@ -10,7 +10,7 @@ visit https://developer.x.com/
 ```
 ## Ganti BearerToken Mu
 ```bash
-    BEARER_TOKEN = 'your_bearer_token'
+BEARER_TOKEN = 'your_bearer_token'
 ```
 
 
