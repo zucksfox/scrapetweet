@@ -4,10 +4,7 @@ Search recent tweets by keyword using the X API, with automatic retry on rate li
 
 ## How it works
 
-`scrapetwet.py` uses [Tweepy](https://www.tweepy.org/) to call the X API v2 recent-search
-endpoint. You enter a search query and how many tweets to fetch (10–100); matching tweets are
-printed to the terminal. If the API rate limit is hit, the script backs off exponentially and
-retries (up to 5 times).
+`scrapetweet.py` uses [Tweepy](https://www.tweepy.org/) to call the X API v2 recent-search endpoint. You enter a search query and how many tweets to fetch (10–100); matching tweets are printed to the terminal. If the API rate limit is hit, the script backs off exponentially and retries (up to 5 times).
 
 ## Requirements
 
@@ -20,12 +17,12 @@ retries (up to 5 times).
 pip install tweepy
 ```
 
-Open `scrapetwet.py` and replace `'your_bearer_token'` with your own Bearer Token.
+Open `scrapetweet.py` and replace `'your_bearer_token'` with your own Bearer Token.
 
 ## Usage
 
 ```bash
-python scrapetwet.py
+python scrapetweet.py
 ```
 
 Then enter your search query and the number of tweets to retrieve (10–100, default 10).
